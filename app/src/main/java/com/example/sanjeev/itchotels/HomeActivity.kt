@@ -11,6 +11,7 @@ class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
+        //Test
 
         val btnBrowse: Button =findViewById<Button>(R.id.buttonBrowse)
         btnBrowse.setOnClickListener {
